@@ -6,11 +6,11 @@ public class Mago extends Personagem{
     }
     @Override
     public void atacar() {
-        System.out.println("Mago " + nome + " lançou uma bola de fogo!");
+        System.out.println("Mago " + getNome() + " lançou uma bola de fogo!");
     }
     @Override
     public String toString() {
-        return "Mago " + nome + ", tem  " + vida + " de vida. Nível: " + nivel + ".";
+        return "Mago " + getNome() + ", tem  " + getVida() + " de vida. Nível: " + getNivel() + ".";
     }
 
 }

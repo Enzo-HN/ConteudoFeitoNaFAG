@@ -7,15 +7,15 @@ public class Sacerdote extends Personagem implements Curavel{
 
     @Override
     public void atacar() {
-        System.out.println("Sacerdote " + nome + " realizou um ataque sagrado!");
+        System.out.println("Sacerdote " + getNome() + " realizou um ataque sagrado!");
     }
     @Override
     public void curar() {
-        System.out.println("Sacerdote " + nome + " realizou uma cura sagrada!");
+        System.out.println("Sacerdote " + getNome() + " realizou uma cura sagrada!");
     }
     @Override
     public String toString() {
-        return "Sacerdote " + nome + ", tem  " + vida + " de vida. Nível: " + nivel + ".";
+        return "Sacerdote " + getNome() + ", tem  " + getVida() + " de vida. Nível: " + getNivel() + ".";
 
     }
 }
