@@ -6,11 +6,11 @@ public class Arqueiro extends Personagem{
     }
     @Override
     public void atacar() {
-        System.out.println("Arqueiro " + getNome() + " disparou uma flecha!");
+        System.out.println("Arqueiro " + nome + " disparou uma flecha!");
     }
     @Override
     public String toString() {
-        return "Arqueiro " + getNome() + ", tem  " + getVida() + " de vida. Nível: " + getNivel() + ".";
+        return "Arqueiro " + nome + ", tem  " + vida + " de vida. Nível: " + nivel + ".";
 
     }
 

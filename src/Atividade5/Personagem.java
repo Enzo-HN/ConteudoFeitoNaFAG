@@ -1,9 +1,9 @@
 package Atividade5;
 
 public abstract class Personagem {
-    private String nome;
-    private int nivel;
-    private int vida;
+    protected String nome;
+    protected int nivel;
+    protected int vida;
 
     public String getNome() {
         return nome;

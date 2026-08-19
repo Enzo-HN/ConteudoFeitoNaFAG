@@ -15,5 +15,6 @@ public class Main {
         guilda.listarMembros();
         guilda.atacarComTodos();
         sacerdote.curar();
+
     }
 }
